@@ -1,10 +1,13 @@
-🤖 Jarvis AI – Python Voice Assistant
 
-- Jarvis AI is a Python-based voice assistant that performs various tasks using voice commands, such as searching Wikipedia, opening websites, playing music, telling jokes, fetching weather updates, reading news, and more.
-- It uses speech recognition and text-to-speech to interact with the user naturally.
+# 🤖 Jarvis AI – Python Voice Assistant
 
+Jarvis AI is a Python-based voice assistant that performs various tasks using voice commands, such as searching Wikipedia, opening websites, playing music, telling jokes, fetching weather updates, reading news, and more.
+It uses speech recognition and text-to-speech to interact with the user naturally.
 
-🚀 Features:
+---
+
+## 🚀 Features
+
 * 🎤 Voice command recognition
 * 🗣️ Text-to-speech responses
 * 📖 Wikipedia search and summary
@@ -20,8 +23,10 @@
 * 👋 Interactive greetings and responses
 * 🛑 Voice-controlled program termination
 
+---
 
-🛠️ Technologies & Libraries Used:
+## 🛠️ Technologies & Libraries Used
+
 * **Python 3**
 * `pyttsx3` – Text-to-speech
 * `speech_recognition` – Voice input
@@ -33,9 +38,11 @@
 * `pyautogui` – Keyboard & system automation
 * `datetime`, `os`, `time` – System utilities
 
+---
 
-📂 Project Structure:
+## 📂 Project Structure
 
+```
 Jarvis-AI/
 │
 ├── main.py               # Main Jarvis AI program
@@ -43,33 +50,40 @@ Jarvis-AI/
 ├── NewsRead.py           # News fetching logic
 ├── whatsapp.py           # WhatsApp messaging feature
 ├── README.md             # Project documentation
+```
 
+---
 
-⚙️ Installation & Setup:
-1️⃣ Clone the Repository
+## ⚙️ Installation & Setup
 
-On bash:
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/your-username/jarvis-ai.git
 cd jarvis-ai
+```
 
+### 2️⃣ Install Required Libraries
 
-2️⃣ Install Required Libraries
-
-On bash:
+```bash
 pip install pyttsx3 SpeechRecognition wikipedia requests beautifulsoup4 pyjokes pyautogui
+```
 
-⚠️ Make sure your microphone is working properly.
+> ⚠️ Make sure your microphone is working properly.
 
+---
 
-▶️ How to Run:
+## ▶️ How to Run
 
-On bash:
+```bash
 python main.py
+```
 
 Once started, Jarvis will greet you and begin listening for voice commands.
 
+---
 
-🎙️ Example Voice Commands:
+## 🎙️ Example Voice Commands
 
 * “Search Wikipedia for Artificial Intelligence”
 * “Open YouTube”
@@ -81,15 +95,17 @@ Once started, Jarvis will greet you and begin listening for voice commands.
 * “Send WhatsApp message”
 * “Sleep” / “End program”
 
+---
 
-🖥️ Platform Support:
+## 🖥️ Platform Support
 
 * Optimized for **Windows**
 * Uses **SAPI5** voice engine
 * Some features (camera, apps, paths) are **Windows-specific**
 
+---
 
-🧠 Future Enhancements:
+## 🧠 Future Enhancements
 
 * GUI interface (Tkinter / PyQt)
 * ChatGPT integration
@@ -98,8 +114,14 @@ Once started, Jarvis will greet you and begin listening for voice commands.
 * Cross-platform support
 * Hotword detection (e.g., “Hey Jarvis”)
 
+---
 
-📜 License:
+## 📜 License
 
 This project is for **educational purposes**.
 You are free to modify and enhance it.
+
+---
+
+
+Just tell me 👍
