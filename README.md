@@ -122,6 +122,3 @@ This project is for **educational purposes**.
 You are free to modify and enhance it.
 
 ---
-
-
-Just tell me 👍
